@@ -1,0 +1,40 @@
+# Test Program for Simple Calculator
+# Defined functions
+
+def add(x,y):
+  """"This function adds 2 numbers"""
+  return x + y
+
+def subtract(x,y):
+  """"This function subtracts 2 numbers"""
+  return x - Y
+  
+def multiply(x,y):
+  """"This function multiplies 2 numbers"""
+  return x * y
+
+def divide(x,y):
+  """"This function divides 2 numbers"""
+  return x / y
+
+def power(x,y):
+  """"This function adds 2 numbers"""
+  return pow(x,y)
+  
+  # Take Input from User
+  
+  print("Select operation:")
+  print("1.Add")
+  print("1.Subtract")
+  print("1.Multiply")
+  print("1.Divide")
+  print("1.Power")
+  choice=input("Enter choice 1/2/3/4/5:")
+  
+  num1=int(input("Enter the first number: "))
+  num2=int(input("Enter the second number: "))
+  
+  if choice == "1': 
+    print(num1, "+", num2,"=", add(num1,num2))
+  elif choice == "2": 
+  
